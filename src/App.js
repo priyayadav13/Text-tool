@@ -28,7 +28,6 @@ function App() {
       setMode("dark");
       document.body.style.backgroundColor = "#042743";
       showAlert("Dark mode has been enabled", "success");
-      document.title = "Dark Mode";
       setModeText("Enable Light Mode");
     } else {
       setMode("light");
